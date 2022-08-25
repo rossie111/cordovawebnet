@@ -1,0 +1,50 @@
+*{
+	background-color: black;
+}
+
+#spiderweb {
+	color: rgb(212, 255, 71);
+	font-size: 30px;
+	text-align: center;
+}
+
+body {
+	color: rgb(212, 255, 71);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	box-sizing: border-box;
+	font-family: 'Syne Mono', monospace;
+}
+
+h1 {
+	font-size: 71px;
+	text-transform: uppercase;
+	font-family: 'Karla', sans-serif;
+    color: #FF0000;
+    text-shadow: 6px -5px 15px #FF003D;
+    letter-spacing: -0.3rem;
+    line-height: 90%;
+    margin: 4%;
+}
+
+#intro {
+	font-size: 40px;
+	margin: 4%;
+	line-height: 110%;
+}
+
+ul{
+	position: fixed;
+	bottom: 0;
+ 	right: 0;
+ 	width: 100vw;
+ 	display: inline-flex;
+ 	list-style: none;
+}
+
+li{
+	display: inline-block;
+	flex: 10;
+	text-align: center;
+}
