@@ -88,3 +88,12 @@ h2 {
 	scrollbar-color: rebeccapurple green;
 	scrollbar-width: thin;
   }
+
+.iframe-container{
+	margin: 1%;
+}
+
+iframe{
+	width:  100%;
+	height:  100%;
+}
