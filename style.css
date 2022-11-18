@@ -19,6 +19,10 @@ body {
 	font-family: 'Syne Mono', monospace;
 }
 
+section {
+	height: 968px;
+}
+
 h1 {
 	font-size: 71px;
 	text-transform: uppercase;
