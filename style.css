@@ -126,19 +126,17 @@ img {
 and (max-device-width: 1024px) {
   section {
     width: 400px;
-    height: 400px;
-    background-color: orange;
-    color: black;
-  }
+    height: 809px;
+	}
 }
  
 /* For Mobile Portrait View */
 @media screen and (max-device-width: 480px)
 and (orientation: portrait) {
   section {
-    width: 200px;
-    height: 200px;
-  }
+    width: 400px;
+    height: 809px;
+	}
 }
  
 /* For Mobile Landscape View */
@@ -146,24 +144,24 @@ and (orientation: portrait) {
 and (orientation: landscape) {
   section {
     width: 400px;
-    height: 200px;
-  }
+    height: 809px;
+	}
 }
  
 /* For Mobile Phones Portrait or Landscape View */
 @media screen and (max-device-width: 640px) {
   section {
     width: 400px;
-    height: 200px;
+    height: 809px;
   }
 }
  
 /* For iPhone 4 Portrait or Landscape View */
 @media screen and (min-device-width: 320px)
 and (-webkit-min-device-pixel-ratio: 2) {
-  .gfg-div {
+  section {
     width: 400px;
-    height: 400px;
+    height: 809px;
   }
 }
  
@@ -172,7 +170,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
 and (-webkit-min-device-pixel-ratio: 2) {
   section {
     width: 400px;
-    height: 400px;
+    height: 809px;
   }
 }
  
@@ -181,6 +179,6 @@ and (-webkit-min-device-pixel-ratio: 2) {
 and (-webkit-min-device-pixel-ratio: 3) {
   section {
     width: 400px;
-    height: 400px;
+    height: 809px;
   }
 }
