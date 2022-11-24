@@ -115,10 +115,10 @@ ul{
 	padding: 0;
 }
 
-li{
+/*li{
 	text-align: center;
 	color: #1E1E1E;
-}
+}*/
 
 #active-li{
 	color: rgb(212, 255, 71);
