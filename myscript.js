@@ -7,7 +7,7 @@ const nextButton = document.getElementById("slide-arrow-next");
 
 console.log('elements needed for slider')
 
-nextButton.addEventListener("click", () => {
+nextButton.addEventListener("click", (click) => {
 	const slideWidth = slide.clientWidth;
 		slidesContainer.scrollLeft += slideWidth;
 });
