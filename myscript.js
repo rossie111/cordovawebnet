@@ -1,4 +1,23 @@
-console.log('Hello!');
+console.log('cha cha slide')
+
+const slidesContainer = document.getElementById("slides-container");
+const slide = document.querySelector(".slide");
+const prevButton = document.getElementById("slide-arrow-prev");
+const nextButton = document.getElementById("slide-arrow-next");
+
+console.log('elements needed for slider')
+
+nextButton.addEventListener("click", (event) => {
+	const slideWidth = slide.clientWidth;
+		slidesContainer.scrollLeft += slideWidth;
+});
+
+prevButton.addEventListener("click", () => {
+	const slideWidth = slide.clientWidth;
+	slidesContainer.scrollLeft -= slideWidth;
+});
+
+console.log('Click through slides!');
 
 let lisa_count = 0;
 let rld_count = 0;
