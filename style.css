@@ -34,7 +34,15 @@ body {
 	padding: 0;
 	overflow: scroll;
 	scroll-behavior: smooth;
+	scrollbar-width: none; /* Firefox */
+	-ms-overflow-style: none;  /* Internet Explorer 10+ */
 }
+
+/* WebKit */
+.slides-container::-webkit-scrollbar { 
+	width: 0;
+	height: 0;
+} 
 
 .slide {
 	width: 100%;
