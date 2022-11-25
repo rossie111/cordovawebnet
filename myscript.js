@@ -5,7 +5,7 @@ const slide = document.querySelector(".slide");
 const prevButton = document.getElementById("slide-arrow-prev");
 const nextButton = document.getElementById("slide-arrow-next");
 
-console.log('elements needed for slider')
+//console.log('elements needed for slider')
 
 nextButton.addEventListener("click", () => {
 	const slideWidth = slide.clientWidth;
