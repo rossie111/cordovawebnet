@@ -1,3 +1,5 @@
+$(document).ready(function(){
+	
 console.log('cha cha slide');
 
 const slidesContainer = document.getElementById("slides-container");
