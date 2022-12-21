@@ -31,6 +31,7 @@ $(document).ready(function(){
 		'LisaRoach_5min.jpg',
 		'LisaRoach_10min.jpg',
 		'LisaRoach_nolimit.jpg'];
+	}
 
 	//detect clicking on a drawing by lisa
 	$('#lisa').click(function(){
