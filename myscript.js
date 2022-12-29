@@ -1,21 +1,4 @@
-const slidesContainer = document.getElementById("slides-container");
-const slide = document.querySelector(".slide");
-const prevButton = document.getElementById("slide-arrow-prev");
-const nextButton = document.getElementById("slide-arrow-next");
-
-console.log('elements needed for slider');
-
-nextButton.addEventListener("click", function() => {
-	const slideWidth = slide.clientWidth;
-	slidesContainer.scrollLeft += slideWidth;
-});
-
-prevButton.addEventListener("click", function() => {
-	const slideWidth = slide.clientWidth;
-	slidesContainer.scrollLeft -= slideWidth;
-});
-
-console.log('Click through slides!');
+console.log('Hello!');
 
 let lisa_count = 0;
 let rld_count = 0;
@@ -86,6 +69,24 @@ $(document).ready(function(){
 		$(this).attr('src', 'drawings/rld/'+next_img );
 		
 	});
+
+	const slidesContainer = document.getElementById("slides-container");
+	const slide = document.querySelector(".slide");
+	const prevButton = document.getElementById("slide-arrow-prev");
+	const nextButton = document.getElementById("slide-arrow-next");
+
+	console.log('elements needed for slider');
+
+	nextButton.addEventListener("click", function() => {
+		const slideWidth = slide.clientWidth;
+		slidesContainer.scrollLeft += slideWidth;
+	});
+
+	prevButton.addEventListener("click", function() => {
+		const slideWidth = slide.clientWidth;
+		slidesContainer.scrollLeft -= slideWidth;
+	});
+
 
 
 
