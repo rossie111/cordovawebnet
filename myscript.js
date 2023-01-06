@@ -11,8 +11,9 @@ $(document).ready(function(){
 		'LisaRoach_2min.jpg',
 		'LisaRoach_5min.jpg',
 		'LisaRoach_10min.jpg',
-		'LisaRoach_nolimit.jpg'];
-	}
+		'LisaRoach_nolimit.jpg',
+	];
+	// there was an extra closing braket here which closed the function above
 
 	//detect clicking on a drawing by lisa
 	$('#lisa').click(function(){
@@ -77,17 +78,17 @@ $(document).ready(function(){
 
 	console.log('elements needed for slider');
 
-	nextButton.addEventListener("click", function() => {
+	nextButton.addEventListener("click", () => {
 		const slideWidth = slide.clientWidth;
 		slidesContainer.scrollLeft += slideWidth;
 	});
-
-	prevButton.addEventListener("click", function() => {
+	
+	// arrow functions don't need the word function before the ()
+	// https://dmitripavlutin.com/differences-between-arrow-and-regular-functions/
+	prevButton.addEventListener("click", () => {
 		const slideWidth = slide.clientWidth;
 		slidesContainer.scrollLeft -= slideWidth;
 	});
 
-
-
-
-
+	// you were missing closing brackets for $(document).ready(function()...
+});
