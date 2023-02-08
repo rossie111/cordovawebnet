@@ -19,7 +19,7 @@ body {
 	font-family: 'Syne Mono', monospace;
 }
 
-.slide-wrapper {
+.slider-wrapper {
 	margin: 1rem;
 	position: relative;
 	overflow: hidden;
