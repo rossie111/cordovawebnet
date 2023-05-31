@@ -30,6 +30,7 @@ $(document).ready(function(){
 			lisa_count = 0;
 		}
 		console.log(lisa_count);
+		console.log(lisa_images.length);
 
 		//get our next image filename;
 		let next_img = lisa_images[lisa_count];
