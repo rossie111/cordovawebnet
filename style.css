@@ -37,6 +37,7 @@ body {
 	scroll-behavior: smooth;
 	scrollbar-width: none; /* Firefox */
 	-ms-overflow-style: none;  /* Internet Explorer 10+ */
+	scroll-snap-type: x mandatory;
 }
 
 /* WebKit */
@@ -49,6 +50,7 @@ body {
 	width: 100%;
 	height: 100%;
 	flex: 1 0 100%;
+	scroll-snap-align: center;
 }
 
 
